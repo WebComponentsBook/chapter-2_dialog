@@ -17,12 +17,12 @@
             <p><a href="#" data-action="destroy">destroy</a></p>
         </div>
         <script type="text/javascript" src="components/jquery/dist/jquery.js"></script>
-        <script type="text/javascript" src="components/voltron/voltron.js"></script>
+        <script type="text/javascript" src="components/chapter-2_voltron/voltron.js"></script>
         <script type="text/javascript" src="dialog.js"></script>
         <script type="text/javascript">
             (function () {
                 var dialog = new Dialog({
-                    $el: 'div.component',
+                    $el: '.component',
                     events: {
                         'click [data-action]': function (e) {
                             var action = $(e.currentTarget).attr('data-action');

@@ -24,6 +24,6 @@
   ],
   "dependencies": {
     "jquery": "~2.1.1",
-    "voltron": "0.0.0"
+    "chapter-2_voltron": "0.0.0"
   }
 }
